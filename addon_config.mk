@@ -12,11 +12,11 @@ common:
 osx:
 vs:	
 	# x64
-	ADDON_LIBS += libs/realsense2/lib/x64/realsense2.lib
-	ADDON_DLLS_TO_COPY += libs/realsense2/lib/x64/realsense2.dll;libs/realsense2/lib/x64/Intel.Realsense.dll
+	#ADDON_LIBS += libs/realsense2/lib/x64/realsense2.lib
+	#ADDON_DLLS_TO_COPY += libs/realsense2/lib/x64/realsense2.dll;libs/realsense2/lib/x64/Intel.Realsense.dll
 	# Win32
-	#ADDON_LIBS += libs/realsense2/lib/vs/Win32/realsense2.lib
-	#ADDON_DLLS_TO_COPY += libs/realsense2/lib/Win32/realsense2.dll;libs/realsense2/lib/Win32/Intel.Realsense.dll
+	ADDON_LIBS += libs/realsense2/lib/x86/realsense2.lib
+	ADDON_DLLS_TO_COPY += libs/realsense2/lib/x86/realsense2.dll;libs/realsense2/lib/x86/Intel.Realsense.dll
 	
 	
 linux64:

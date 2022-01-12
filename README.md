@@ -1,5 +1,11 @@
 # ofxRealsense - openFrameworks addon for working with Intel Realsense 415,435,435i cameras
 
+## 바꾼것.
+원본 애드온은 https://github.com/perevalovds/ofxRealsense
+거기에..얼라인 기능 사용 위해 https://github.com/P-A-N/ofxLibRealSense2P의 src를 덮었음. 
+따라서 example-pointcloud는 작동 안함..이건 원본 것임..
+덮어쓴 ofxLibRealSense2P의 example을 추가함.
+
 
 Author: Denis Perevalov
 

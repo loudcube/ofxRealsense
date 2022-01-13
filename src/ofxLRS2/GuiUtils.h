@@ -1,5 +1,5 @@
 #pragma once
-#include "ofxLibRealSense2P.h"
+#include "../ofxLibRealSense2P.h"
 #include <librealsense2/rs.hpp> 
 #include <librealsense2/rsutil.h>
 

@@ -1,4 +1,4 @@
-#include "ofxLRS2/Filter.h"
+#include "Filter.h"
 
 ofxlibrealsense2p::Filter::Filter()
 {

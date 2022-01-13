@@ -143,6 +143,23 @@ public:
 		return bFrameNew;
 	}
 
+	ofPixels& getColorPixels() const
+	{
+		return *_color_frame->getPixels();
+	}
+
+	ofPixels& getDepthPixels() const
+	{
+		return *_depth_frame->getPixels();
+	}
+
+	ofShortPixels& getDepthRawPixels() const
+	{
+		return *_raw_depth_frame->getPixels();
+	}
+
+	
+
 	shared_ptr<ofTexture> getDepthTexture() const
 	{
 		return _depth_frame->getTexture();

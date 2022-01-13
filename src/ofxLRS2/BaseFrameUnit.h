@@ -60,6 +60,11 @@ public:
 		_texture->draw(x, y);
 	}
 
+	shared_ptr<ofPixels_<T>> getPixels()
+	{
+		return _buff;
+	}
+
 
 	//----getter / setter ----///
 	shared_ptr<ofTexture> getTexture() { return _texture; }

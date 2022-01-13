@@ -1,4 +1,5 @@
-#include "ofxLRS2/PointCloud.h"
+#include "PointCloud.h"
+
 ofxlibrealsense2p::PointCloud::PointCloud()
 {
 }
